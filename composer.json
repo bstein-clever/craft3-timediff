@@ -1,0 +1,24 @@
+{
+  "name": "mishellnovosel/craft3-timediff",
+  "description": "Twig time_diff for Craft3",
+  "version": "1.0.0",
+  "type": "craft-plugin",
+  "minimum-stability": "dev",
+  "require": {
+    "craftcms/cms": "^3.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "mishellnovosel\\time_diff\\": "src/"
+    }
+  },
+  "support": {
+    "email": "mishell.novosel@gmail.com"
+  },
+  "extra": {
+    "handle": "time_diff",
+    "name": "Craft3 time_diff",
+    "developer": "Mishell Novosel",
+    "class": "mishellnovosel\\time_diff\\TimeDiffPlugin"
+  }
+}
