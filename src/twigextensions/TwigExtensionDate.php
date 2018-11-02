@@ -80,11 +80,11 @@ class TwigExtensionDate extends \Twig_Extension
      */
     public function diff(\Twig_Environment $env, $date, $now = null)
     {
-        $date = \DateTime::createFromFormat('d/m/Y H:i:s', $date);
-        $now = new \DateTime();
+        $date = twig_date_converter($env, $date);
+        $now = twig_date_converter($env, $now);
 
         // Get the difference between the two DateTime objects.
-        $diff = date_diff($date, $now);
+        $diff = $date->diff($now);
         // Check for each interval if it appears in the $diff object.
         foreach (self::$units as $attribute => $unit) {
             $count = $diff->$attribute;
