@@ -3,7 +3,7 @@ namespace codecacao\time_diff;
 
 
 
-use codecacao\time_diff\twigextensions\TwigExtensionDate;
+use mishellnovosel\craft3_timediff\twigextensions\TwigExtensionDate;
 
 class TimeDiffPlugin extends \craft\base\Plugin
 {

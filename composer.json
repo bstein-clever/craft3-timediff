@@ -1,5 +1,5 @@
 {
-  "name": "mishellnovosel/craft3-timediff",
+  "name": "mishellnovosel/craft3_timediff",
   "description": "Twig time_diff for Craft3",
   "version": "1.0.0",
   "type": "craft-plugin",

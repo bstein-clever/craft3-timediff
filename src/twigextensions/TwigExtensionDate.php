@@ -1,6 +1,6 @@
 <?php
 
-namespace codecacao\time_diff\twigextensions;
+namespace mishellnovosel\craft3_timediff\twigextensions;
 
 use Craft;
 
