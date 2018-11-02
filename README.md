@@ -21,7 +21,7 @@ So, to implement it, you'll have to do the same.
 ```
  - In your terminal, go to your Craft project and tell Composer to require your plugin.
  ```sh
-composer require mishellnovosel/craft3-timediff
+composer require mishellnovosel/craft3_timediff
 ```
 
 ### Usage
