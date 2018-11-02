@@ -9,7 +9,7 @@
   },
   "autoload": {
     "psr-4": {
-      "mishellnovosel\\time_diff\\": "src/"
+      "mishellnovosel\\craft3_timediff\\": "src/"
     }
   },
   "support": {
@@ -19,6 +19,6 @@
     "handle": "time_diff",
     "name": "Craft3 time_diff",
     "developer": "Mishell Novosel",
-    "class": "mishellnovosel\\time_diff\\TimeDiffPlugin"
+    "class": "mishellnovosel\\craft3_timediff\\TimeDiffPlugin"
   }
 }

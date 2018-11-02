@@ -1,7 +1,5 @@
 <?php
-namespace codecacao\time_diff;
-
-
+namespace mishellnovosel\craft3_timediff;
 
 use mishellnovosel\craft3_timediff\twigextensions\TwigExtensionDate;
 
